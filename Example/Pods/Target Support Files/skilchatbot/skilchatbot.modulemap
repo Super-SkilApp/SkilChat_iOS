@@ -1,0 +1,6 @@
+framework module skilchatbot {
+  umbrella header "skilchatbot-umbrella.h"
+
+  export *
+  module * { export * }
+}

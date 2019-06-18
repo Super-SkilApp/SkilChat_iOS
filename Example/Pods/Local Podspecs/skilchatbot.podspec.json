@@ -1,0 +1,22 @@
+{
+  "name": "skilchatbot",
+  "version": "0.1.0",
+  "summary": "A short description of skilchatbot.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Designed screens and font size-family-style./skilchatbot",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Designed screens and font size-family-style.": "hari.skilapp@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Designed screens and font size-family-style./skilchatbot.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "skilchatbot/Classes/**/*"
+}

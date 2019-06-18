@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		047DB3502370DAFFFAF53E71 /* Pods-skilchatbot_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skilchatbot_Tests.debug.xcconfig"; path = "Target Support Files/Pods-skilchatbot_Tests/Pods-skilchatbot_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		11C57C43A4F6ED262F930613 /* Pods_skilchatbot_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_skilchatbot_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E3A8AEB9366D143268FC3B9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1E3A8AEB9366D143268FC3B9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2334ED69FF759719EE611D43 /* Pods-skilchatbot_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skilchatbot_Example.release.xcconfig"; path = "Target Support Files/Pods-skilchatbot_Example/Pods-skilchatbot_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3645A5528445A5FB8EE8B210 /* Pods-skilchatbot_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skilchatbot_Tests.release.xcconfig"; path = "Target Support Files/Pods-skilchatbot_Tests/Pods-skilchatbot_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4FE3E5727AD54C7508711203 /* Pods_skilchatbot_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_skilchatbot_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,8 +45,8 @@
 		607FACE51AFB9204008FA782 /* skilchatbot_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = skilchatbot_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		BD81DAB663F236C8DDB78C58 /* skilchatbot.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = skilchatbot.podspec; path = ../skilchatbot.podspec; sourceTree = "<group>"; };
-		E144D4135ADB934638A67B2B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BD81DAB663F236C8DDB78C58 /* skilchatbot.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = skilchatbot.podspec; path = ../skilchatbot.podspec; sourceTree = "<group>"; };
+		E144D4135ADB934638A67B2B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				047DB3502370DAFFFAF53E71 /* Pods-skilchatbot_Tests.debug.xcconfig */,
 				3645A5528445A5FB8EE8B210 /* Pods-skilchatbot_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -484,7 +484,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -499,7 +499,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
