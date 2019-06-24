@@ -1,16 +1,23 @@
 PODS:
+  - MessengerKit (0.0.1)
   - skilchatbot (0.1.0)
 
 DEPENDENCIES:
+  - MessengerKit
   - skilchatbot (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MessengerKit
 
 EXTERNAL SOURCES:
   skilchatbot:
     :path: "../"
 
 SPEC CHECKSUMS:
+  MessengerKit: 904b18d4e171b1154543096dae9d4327b70e4047
   skilchatbot: 6a35e36dba68c5d0275205e290a256cf7f6e0a61
 
-PODFILE CHECKSUM: 34526f9837151b0613cf064cb3970f28b1c48d19
+PODFILE CHECKSUM: 57078394f2e23fc249062002edda1153716096ec
 
 COCOAPODS: 1.7.0

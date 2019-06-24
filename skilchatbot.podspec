@@ -9,8 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'skilchatbot'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of skilchatbot.'
-
+  s.summary          = 'skilchatbot.'
+  s.swift_version    = '4.2'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/Designed screens and font size-family-style./skilchatbot.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '11.3'
 
   s.source_files = 'skilchatbot/Classes/**/*'
   

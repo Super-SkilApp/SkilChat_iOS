@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'skilchatbot_Example' do
   pod 'skilchatbot', :path => '../'
+pod 'MessengerKit'
 
   target 'skilchatbot_Tests' do
     inherit! :search_paths

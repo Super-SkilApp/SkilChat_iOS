@@ -14,6 +14,81 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		783BBF1D22BCD5AE00AF5CD1 /* TravamigosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBF1C22BCD5AD00AF5CD1 /* TravamigosViewController.swift */; };
+		783BBF2322BCDFA400AF5CD1 /* MessengerKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 783BBF2222BCDFA400AF5CD1 /* MessengerKit.bundle */; };
+		783BBFB422BCF80A00AF5CD1 /* MessengerKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBF5022BCF80900AF5CD1 /* MessengerKit.swift */; };
+		783BBFB522BCF80A00AF5CD1 /* MSGMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBF5322BCF80900AF5CD1 /* MSGMessageCell.swift */; };
+		783BBFB622BCF80A00AF5CD1 /* MSGEmojiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBF5522BCF80900AF5CD1 /* MSGEmojiCollectionViewCell.swift */; };
+		783BBFB722BCF80A00AF5CD1 /* MSGIncomingEmojiCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 783BBF5622BCF80900AF5CD1 /* MSGIncomingEmojiCollectionViewCell.xib */; };
+		783BBFB822BCF80A00AF5CD1 /* MSGOutgoingEmojiCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 783BBF5722BCF80900AF5CD1 /* MSGOutgoingEmojiCollectionViewCell.xib */; };
+		783BBFB922BCF80A00AF5CD1 /* MSGMessageCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBF5822BCF80900AF5CD1 /* MSGMessageCellDelegate.swift */; };
+		783BBFBA22BCF80A00AF5CD1 /* MSGIncomingTravCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 783BBF5B22BCF80900AF5CD1 /* MSGIncomingTravCollectionViewCell.xib */; };
+		783BBFBB22BCF80A00AF5CD1 /* MSGOutgoingTravCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 783BBF5C22BCF80900AF5CD1 /* MSGOutgoingTravCollectionViewCell.xib */; };
+		783BBFBC22BCF80A00AF5CD1 /* MSGTravCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBF5D22BCF80900AF5CD1 /* MSGTravCollectionViewCell.swift */; };
+		783BBFBD22BCF80A00AF5CD1 /* MSGIncomingTailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 783BBF5F22BCF80900AF5CD1 /* MSGIncomingTailCollectionViewCell.xib */; };
+		783BBFBE22BCF80A00AF5CD1 /* MSGOutgoingTailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 783BBF6022BCF80900AF5CD1 /* MSGOutgoingTailCollectionViewCell.xib */; };
+		783BBFBF22BCF80A00AF5CD1 /* MSGTailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBF6122BCF80900AF5CD1 /* MSGTailCollectionViewCell.swift */; };
+		783BBFC022BCF80A00AF5CD1 /* MSGImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBF6322BCF80900AF5CD1 /* MSGImageCollectionViewCell.swift */; };
+		783BBFC122BCF80A00AF5CD1 /* MSGOutgoingImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 783BBF6422BCF80900AF5CD1 /* MSGOutgoingImageCollectionViewCell.xib */; };
+		783BBFC222BCF80A00AF5CD1 /* MSGIncomingImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 783BBF6522BCF80900AF5CD1 /* MSGIncomingImageCollectionViewCell.xib */; };
+		783BBFC322BCF80A00AF5CD1 /* MSGTravCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBF6822BCF80900AF5CD1 /* MSGTravCollectionView.swift */; };
+		783BBFC422BCF80A00AF5CD1 /* MSGTravCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBF6922BCF80900AF5CD1 /* MSGTravCollectionViewFlowLayout.swift */; };
+		783BBFC522BCF80A00AF5CD1 /* MSGImessageTravCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBF6B22BCF80900AF5CD1 /* MSGImessageTravCollectionViewFlowLayout.swift */; };
+		783BBFC622BCF80A00AF5CD1 /* MSGImessageCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBF6C22BCF80900AF5CD1 /* MSGImessageCollectionView.swift */; };
+		783BBFC722BCF80A00AF5CD1 /* MSGCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBF6D22BCF80900AF5CD1 /* MSGCollectionView.swift */; };
+		783BBFC822BCF80A00AF5CD1 /* MSGSectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBF6F22BCF80900AF5CD1 /* MSGSectionReusableView.swift */; };
+		783BBFC922BCF80A00AF5CD1 /* MSGTravCollectionViewSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBF7122BCF80900AF5CD1 /* MSGTravCollectionViewSectionHeader.swift */; };
+		783BBFCA22BCF80A00AF5CD1 /* MSGTravIncomingCollectionViewSectionFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 783BBF7222BCF80900AF5CD1 /* MSGTravIncomingCollectionViewSectionFooter.xib */; };
+		783BBFCB22BCF80A00AF5CD1 /* MSGTravIncomingCollectionViewSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 783BBF7322BCF80900AF5CD1 /* MSGTravIncomingCollectionViewSectionHeader.xib */; };
+		783BBFCC22BCF80A00AF5CD1 /* MSGTravOutgoingCollectionViewSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 783BBF7422BCF80900AF5CD1 /* MSGTravOutgoingCollectionViewSectionHeader.xib */; };
+		783BBFCD22BCF80A00AF5CD1 /* MSGTravCollectionViewSectionFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBF7522BCF80900AF5CD1 /* MSGTravCollectionViewSectionFooter.swift */; };
+		783BBFCE22BCF80A00AF5CD1 /* MSGTravOutgoingCollectionViewSectionFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 783BBF7622BCF80900AF5CD1 /* MSGTravOutgoingCollectionViewSectionFooter.xib */; };
+		783BBFCF22BCF80A00AF5CD1 /* MSGSectionReusableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBF7722BCF80900AF5CD1 /* MSGSectionReusableViewDelegate.swift */; };
+		783BBFD022BCF80A00AF5CD1 /* MSGImessageIncomingHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 783BBF7922BCF80900AF5CD1 /* MSGImessageIncomingHeaderView.xib */; };
+		783BBFD122BCF80A00AF5CD1 /* MSGImessageOutgoingFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 783BBF7A22BCF80900AF5CD1 /* MSGImessageOutgoingFooterView.xib */; };
+		783BBFD222BCF80A00AF5CD1 /* MSGImessageHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBF7B22BCF80900AF5CD1 /* MSGImessageHeaderView.swift */; };
+		783BBFD322BCF80A00AF5CD1 /* MSGImessageFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBF7C22BCF80900AF5CD1 /* MSGImessageFooterView.swift */; };
+		783BBFD422BCF80A00AF5CD1 /* MSGImessageIncomingFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 783BBF7D22BCF80900AF5CD1 /* MSGImessageIncomingFooterView.xib */; };
+		783BBFD522BCF80A00AF5CD1 /* MSGImessageOutgoingHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 783BBF7E22BCF80900AF5CD1 /* MSGImessageOutgoingHeaderView.xib */; };
+		783BBFD622BCF80A00AF5CD1 /* MSGDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBF7F22BCF80900AF5CD1 /* MSGDataSource.swift */; };
+		783BBFD722BCF80A00AF5CD1 /* MSGDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBF8022BCF80900AF5CD1 /* MSGDelegate.swift */; };
+		783BBFD922BCF80A00AF5CD1 /* MSGPlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBF8322BCF80900AF5CD1 /* MSGPlaceholderTextView.swift */; };
+		783BBFDA22BCF80A00AF5CD1 /* MSGTravInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBF8622BCF80900AF5CD1 /* MSGTravInputView.swift */; };
+		783BBFDB22BCF80A00AF5CD1 /* MSGInputSeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBF8722BCF80900AF5CD1 /* MSGInputSeparatorView.swift */; };
+		783BBFDC22BCF80A00AF5CD1 /* MSGImessageInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 783BBF8922BCF80900AF5CD1 /* MSGImessageInputView.xib */; };
+		783BBFDD22BCF80A00AF5CD1 /* MSGImessageSendButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBF8A22BCF80900AF5CD1 /* MSGImessageSendButton.swift */; };
+		783BBFDE22BCF80A00AF5CD1 /* MSGImessageInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBF8B22BCF80900AF5CD1 /* MSGImessageInputView.swift */; };
+		783BBFDF22BCF80A00AF5CD1 /* MSGInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBF8C22BCF80900AF5CD1 /* MSGInputView.swift */; };
+		783BBFE022BCF80A00AF5CD1 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 783BBF8E22BCF80900AF5CD1 /* .gitkeep */; };
+		783BBFE122BCF80A00AF5CD1 /* MSGUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBF9022BCF80900AF5CD1 /* MSGUser.swift */; };
+		783BBFE222BCF80A00AF5CD1 /* MSGMessageBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBF9122BCF80900AF5CD1 /* MSGMessageBody.swift */; };
+		783BBFE322BCF80A00AF5CD1 /* MSGMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBF9222BCF80900AF5CD1 /* MSGMessage.swift */; };
+		783BBFE422BCF80A00AF5CD1 /* MSGTravamigosStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBF9422BCF80900AF5CD1 /* MSGTravamigosStyle.swift */; };
+		783BBFE522BCF80A00AF5CD1 /* MSGIMessageStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBF9522BCF80900AF5CD1 /* MSGIMessageStyle.swift */; };
+		783BBFE622BCF80A00AF5CD1 /* MSGMessengerStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBF9622BCF80900AF5CD1 /* MSGMessengerStyle.swift */; };
+		783BBFE722BCF80A00AF5CD1 /* MSGMessengerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBF9822BCF80900AF5CD1 /* MSGMessengerView.swift */; };
+		783BBFE822BCF80A00AF5CD1 /* MSGMessengerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 783BBF9922BCF80900AF5CD1 /* MSGMessengerView.xib */; };
+		783BBFE922BCF80A00AF5CD1 /* MSGMessengerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBF9A22BCF80900AF5CD1 /* MSGMessengerViewController.swift */; };
+		783BBFEA22BCF80A00AF5CD1 /* MSGMessengerViewController + Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBF9B22BCF80900AF5CD1 /* MSGMessengerViewController + Helpers.swift */; };
+		783BBFEB22BCF80A00AF5CD1 /* MSGMessengerViewController + DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBF9C22BCF80900AF5CD1 /* MSGMessengerViewController + DataSource.swift */; };
+		783BBFEC22BCF80A00AF5CD1 /* MSGMessengerViewController + CellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBF9D22BCF80900AF5CD1 /* MSGMessengerViewController + CellDelegate.swift */; };
+		783BBFEE22BCF80A00AF5CD1 /* MSGTravOutgoingBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBFA122BCF80900AF5CD1 /* MSGTravOutgoingBubble.swift */; };
+		783BBFEF22BCF80A00AF5CD1 /* MSGTravIncomingBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBFA222BCF80900AF5CD1 /* MSGTravIncomingBubble.swift */; };
+		783BBFF022BCF80A00AF5CD1 /* MSGTailIncomingBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBFA422BCF80900AF5CD1 /* MSGTailIncomingBubble.swift */; };
+		783BBFF122BCF80A00AF5CD1 /* MSGTailOutgoingBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBFA522BCF80900AF5CD1 /* MSGTailOutgoingBubble.swift */; };
+		783BBFF222BCF80A00AF5CD1 /* KeyboardLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBFA722BCF80900AF5CD1 /* KeyboardLayoutGuide.swift */; };
+		783BBFF322BCF80A00AF5CD1 /* KeyboardFrameObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBFA822BCF80900AF5CD1 /* KeyboardFrameObserver.swift */; };
+		783BBFF422BCF80A00AF5CD1 /* KeyboardFrameObserversManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BBFA922BCF80900AF5CD1 /* KeyboardFrameObserversManager.swift */; };
+		78E192C322BCA81500CF10B3 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E192C222BCA81500CF10B3 /* MessageViewController.swift */; };
+		78E1936A22BCCD1A00CF10B3 /* CustomBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E1936122BCCD1A00CF10B3 /* CustomBubble.swift */; };
+		78E1936B22BCCD1A00CF10B3 /* CustomOutgoingTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E1936222BCCD1A00CF10B3 /* CustomOutgoingTextCell.swift */; };
+		78E1936C22BCCD1A00CF10B3 /* CustomCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E1936322BCCD1A00CF10B3 /* CustomCollectionView.swift */; };
+		78E1936D22BCCD1A00CF10B3 /* CustomOutgoingTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78E1936422BCCD1A00CF10B3 /* CustomOutgoingTextCell.xib */; };
+		78E1936E22BCCD1A00CF10B3 /* CustomStyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E1936522BCCD1A00CF10B3 /* CustomStyleViewController.swift */; };
+		78E1936F22BCCD1A00CF10B3 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E1936622BCCD1A00CF10B3 /* Emoji.swift */; };
+		78E1937022BCCD1A00CF10B3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E1936722BCCD1A00CF10B3 /* User.swift */; };
+		78E1937122BCCD1A00CF10B3 /* CustomIncomingTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78E1936822BCCD1A00CF10B3 /* CustomIncomingTextCell.xib */; };
+		78E1937222BCCD1A00CF10B3 /* CustomStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E1936922BCCD1A00CF10B3 /* CustomStyle.swift */; };
 		9E7DD80D11D3090BFCF71D7F /* Pods_skilchatbot_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE3E5727AD54C7508711203 /* Pods_skilchatbot_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,7 +120,82 @@
 		607FACE51AFB9204008FA782 /* skilchatbot_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = skilchatbot_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		BD81DAB663F236C8DDB78C58 /* skilchatbot.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = skilchatbot.podspec; path = ../skilchatbot.podspec; sourceTree = "<group>"; };
+		783BBF1C22BCD5AD00AF5CD1 /* TravamigosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravamigosViewController.swift; sourceTree = "<group>"; };
+		783BBF2222BCDFA400AF5CD1 /* MessengerKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MessengerKit.bundle; sourceTree = "<group>"; };
+		783BBF5022BCF80900AF5CD1 /* MessengerKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessengerKit.swift; sourceTree = "<group>"; };
+		783BBF5322BCF80900AF5CD1 /* MSGMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGMessageCell.swift; sourceTree = "<group>"; };
+		783BBF5522BCF80900AF5CD1 /* MSGEmojiCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGEmojiCollectionViewCell.swift; sourceTree = "<group>"; };
+		783BBF5622BCF80900AF5CD1 /* MSGIncomingEmojiCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSGIncomingEmojiCollectionViewCell.xib; sourceTree = "<group>"; };
+		783BBF5722BCF80900AF5CD1 /* MSGOutgoingEmojiCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSGOutgoingEmojiCollectionViewCell.xib; sourceTree = "<group>"; };
+		783BBF5822BCF80900AF5CD1 /* MSGMessageCellDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGMessageCellDelegate.swift; sourceTree = "<group>"; };
+		783BBF5B22BCF80900AF5CD1 /* MSGIncomingTravCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSGIncomingTravCollectionViewCell.xib; sourceTree = "<group>"; };
+		783BBF5C22BCF80900AF5CD1 /* MSGOutgoingTravCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSGOutgoingTravCollectionViewCell.xib; sourceTree = "<group>"; };
+		783BBF5D22BCF80900AF5CD1 /* MSGTravCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGTravCollectionViewCell.swift; sourceTree = "<group>"; };
+		783BBF5F22BCF80900AF5CD1 /* MSGIncomingTailCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSGIncomingTailCollectionViewCell.xib; sourceTree = "<group>"; };
+		783BBF6022BCF80900AF5CD1 /* MSGOutgoingTailCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSGOutgoingTailCollectionViewCell.xib; sourceTree = "<group>"; };
+		783BBF6122BCF80900AF5CD1 /* MSGTailCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGTailCollectionViewCell.swift; sourceTree = "<group>"; };
+		783BBF6322BCF80900AF5CD1 /* MSGImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		783BBF6422BCF80900AF5CD1 /* MSGOutgoingImageCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSGOutgoingImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		783BBF6522BCF80900AF5CD1 /* MSGIncomingImageCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSGIncomingImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		783BBF6822BCF80900AF5CD1 /* MSGTravCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGTravCollectionView.swift; sourceTree = "<group>"; };
+		783BBF6922BCF80900AF5CD1 /* MSGTravCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGTravCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		783BBF6B22BCF80900AF5CD1 /* MSGImessageTravCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGImessageTravCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		783BBF6C22BCF80900AF5CD1 /* MSGImessageCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGImessageCollectionView.swift; sourceTree = "<group>"; };
+		783BBF6D22BCF80900AF5CD1 /* MSGCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGCollectionView.swift; sourceTree = "<group>"; };
+		783BBF6F22BCF80900AF5CD1 /* MSGSectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGSectionReusableView.swift; sourceTree = "<group>"; };
+		783BBF7122BCF80900AF5CD1 /* MSGTravCollectionViewSectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGTravCollectionViewSectionHeader.swift; sourceTree = "<group>"; };
+		783BBF7222BCF80900AF5CD1 /* MSGTravIncomingCollectionViewSectionFooter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSGTravIncomingCollectionViewSectionFooter.xib; sourceTree = "<group>"; };
+		783BBF7322BCF80900AF5CD1 /* MSGTravIncomingCollectionViewSectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSGTravIncomingCollectionViewSectionHeader.xib; sourceTree = "<group>"; };
+		783BBF7422BCF80900AF5CD1 /* MSGTravOutgoingCollectionViewSectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSGTravOutgoingCollectionViewSectionHeader.xib; sourceTree = "<group>"; };
+		783BBF7522BCF80900AF5CD1 /* MSGTravCollectionViewSectionFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGTravCollectionViewSectionFooter.swift; sourceTree = "<group>"; };
+		783BBF7622BCF80900AF5CD1 /* MSGTravOutgoingCollectionViewSectionFooter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSGTravOutgoingCollectionViewSectionFooter.xib; sourceTree = "<group>"; };
+		783BBF7722BCF80900AF5CD1 /* MSGSectionReusableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGSectionReusableViewDelegate.swift; sourceTree = "<group>"; };
+		783BBF7922BCF80900AF5CD1 /* MSGImessageIncomingHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSGImessageIncomingHeaderView.xib; sourceTree = "<group>"; };
+		783BBF7A22BCF80900AF5CD1 /* MSGImessageOutgoingFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSGImessageOutgoingFooterView.xib; sourceTree = "<group>"; };
+		783BBF7B22BCF80900AF5CD1 /* MSGImessageHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGImessageHeaderView.swift; sourceTree = "<group>"; };
+		783BBF7C22BCF80900AF5CD1 /* MSGImessageFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGImessageFooterView.swift; sourceTree = "<group>"; };
+		783BBF7D22BCF80900AF5CD1 /* MSGImessageIncomingFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSGImessageIncomingFooterView.xib; sourceTree = "<group>"; };
+		783BBF7E22BCF80900AF5CD1 /* MSGImessageOutgoingHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSGImessageOutgoingHeaderView.xib; sourceTree = "<group>"; };
+		783BBF7F22BCF80900AF5CD1 /* MSGDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGDataSource.swift; sourceTree = "<group>"; };
+		783BBF8022BCF80900AF5CD1 /* MSGDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGDelegate.swift; sourceTree = "<group>"; };
+		783BBF8322BCF80900AF5CD1 /* MSGPlaceholderTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGPlaceholderTextView.swift; sourceTree = "<group>"; };
+		783BBF8622BCF80900AF5CD1 /* MSGTravInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGTravInputView.swift; sourceTree = "<group>"; };
+		783BBF8722BCF80900AF5CD1 /* MSGInputSeparatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGInputSeparatorView.swift; sourceTree = "<group>"; };
+		783BBF8922BCF80900AF5CD1 /* MSGImessageInputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSGImessageInputView.xib; sourceTree = "<group>"; };
+		783BBF8A22BCF80900AF5CD1 /* MSGImessageSendButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGImessageSendButton.swift; sourceTree = "<group>"; };
+		783BBF8B22BCF80900AF5CD1 /* MSGImessageInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGImessageInputView.swift; sourceTree = "<group>"; };
+		783BBF8C22BCF80900AF5CD1 /* MSGInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGInputView.swift; sourceTree = "<group>"; };
+		783BBF8E22BCF80900AF5CD1 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		783BBF9022BCF80900AF5CD1 /* MSGUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGUser.swift; sourceTree = "<group>"; };
+		783BBF9122BCF80900AF5CD1 /* MSGMessageBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGMessageBody.swift; sourceTree = "<group>"; };
+		783BBF9222BCF80900AF5CD1 /* MSGMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGMessage.swift; sourceTree = "<group>"; };
+		783BBF9422BCF80900AF5CD1 /* MSGTravamigosStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGTravamigosStyle.swift; sourceTree = "<group>"; };
+		783BBF9522BCF80900AF5CD1 /* MSGIMessageStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGIMessageStyle.swift; sourceTree = "<group>"; };
+		783BBF9622BCF80900AF5CD1 /* MSGMessengerStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGMessengerStyle.swift; sourceTree = "<group>"; };
+		783BBF9822BCF80900AF5CD1 /* MSGMessengerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGMessengerView.swift; sourceTree = "<group>"; };
+		783BBF9922BCF80900AF5CD1 /* MSGMessengerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSGMessengerView.xib; sourceTree = "<group>"; };
+		783BBF9A22BCF80900AF5CD1 /* MSGMessengerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGMessengerViewController.swift; sourceTree = "<group>"; };
+		783BBF9B22BCF80900AF5CD1 /* MSGMessengerViewController + Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MSGMessengerViewController + Helpers.swift"; sourceTree = "<group>"; };
+		783BBF9C22BCF80900AF5CD1 /* MSGMessengerViewController + DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MSGMessengerViewController + DataSource.swift"; sourceTree = "<group>"; };
+		783BBF9D22BCF80900AF5CD1 /* MSGMessengerViewController + CellDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MSGMessengerViewController + CellDelegate.swift"; sourceTree = "<group>"; };
+		783BBFA122BCF80900AF5CD1 /* MSGTravOutgoingBubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGTravOutgoingBubble.swift; sourceTree = "<group>"; };
+		783BBFA222BCF80900AF5CD1 /* MSGTravIncomingBubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGTravIncomingBubble.swift; sourceTree = "<group>"; };
+		783BBFA422BCF80900AF5CD1 /* MSGTailIncomingBubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGTailIncomingBubble.swift; sourceTree = "<group>"; };
+		783BBFA522BCF80900AF5CD1 /* MSGTailOutgoingBubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGTailOutgoingBubble.swift; sourceTree = "<group>"; };
+		783BBFA722BCF80900AF5CD1 /* KeyboardLayoutGuide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardLayoutGuide.swift; sourceTree = "<group>"; };
+		783BBFA822BCF80900AF5CD1 /* KeyboardFrameObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardFrameObserver.swift; sourceTree = "<group>"; };
+		783BBFA922BCF80900AF5CD1 /* KeyboardFrameObserversManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardFrameObserversManager.swift; sourceTree = "<group>"; };
+		78E192C222BCA81500CF10B3 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		78E1936122BCCD1A00CF10B3 /* CustomBubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBubble.swift; sourceTree = "<group>"; };
+		78E1936222BCCD1A00CF10B3 /* CustomOutgoingTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomOutgoingTextCell.swift; sourceTree = "<group>"; };
+		78E1936322BCCD1A00CF10B3 /* CustomCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionView.swift; sourceTree = "<group>"; };
+		78E1936422BCCD1A00CF10B3 /* CustomOutgoingTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomOutgoingTextCell.xib; sourceTree = "<group>"; };
+		78E1936522BCCD1A00CF10B3 /* CustomStyleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomStyleViewController.swift; sourceTree = "<group>"; };
+		78E1936622BCCD1A00CF10B3 /* Emoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
+		78E1936722BCCD1A00CF10B3 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		78E1936822BCCD1A00CF10B3 /* CustomIncomingTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomIncomingTextCell.xib; sourceTree = "<group>"; };
+		78E1936922BCCD1A00CF10B3 /* CustomStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomStyle.swift; sourceTree = "<group>"; };
+		BD81DAB663F236C8DDB78C58 /* skilchatbot.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = skilchatbot.podspec; path = ../skilchatbot.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E144D4135ADB934638A67B2B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +222,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				783BBF2222BCDFA400AF5CD1 /* MessengerKit.bundle */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for skilchatbot */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -93,8 +244,11 @@
 		607FACD21AFB9204008FA782 /* Example for skilchatbot */ = {
 			isa = PBXGroup;
 			children = (
+				78E1936022BCCD0100CF10B3 /* MessageView */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				783BBF1C22BCD5AD00AF5CD1 /* TravamigosViewController.swift */,
+				78E192C222BCA81500CF10B3 /* MessageViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -137,6 +291,293 @@
 				1E3A8AEB9366D143268FC3B9 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		783BBF4522BCF80900AF5CD1 /* MessengerKit */ = {
+			isa = PBXGroup;
+			children = (
+				783BBF5022BCF80900AF5CD1 /* MessengerKit.swift */,
+				783BBF5122BCF80900AF5CD1 /* Collection View */,
+				783BBF8222BCF80900AF5CD1 /* Input */,
+				783BBF8D22BCF80900AF5CD1 /* Classes */,
+				783BBF8F22BCF80900AF5CD1 /* Models */,
+				783BBF9322BCF80900AF5CD1 /* Styles */,
+				783BBF9722BCF80900AF5CD1 /* Messenger View */,
+				783BBF9F22BCF80900AF5CD1 /* Bubbles */,
+				783BBFA622BCF80900AF5CD1 /* Keyboard Utility */,
+			);
+			path = MessengerKit;
+			sourceTree = "<group>";
+		};
+		783BBF5122BCF80900AF5CD1 /* Collection View */ = {
+			isa = PBXGroup;
+			children = (
+				783BBF5222BCF80900AF5CD1 /* Cells */,
+				783BBF6622BCF80900AF5CD1 /* Styles */,
+				783BBF6D22BCF80900AF5CD1 /* MSGCollectionView.swift */,
+				783BBF6E22BCF80900AF5CD1 /* Header Footers */,
+				783BBF7F22BCF80900AF5CD1 /* MSGDataSource.swift */,
+				783BBF8022BCF80900AF5CD1 /* MSGDelegate.swift */,
+			);
+			path = "Collection View";
+			sourceTree = "<group>";
+		};
+		783BBF5222BCF80900AF5CD1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				783BBF5322BCF80900AF5CD1 /* MSGMessageCell.swift */,
+				783BBF5422BCF80900AF5CD1 /* Emoji */,
+				783BBF5822BCF80900AF5CD1 /* MSGMessageCellDelegate.swift */,
+				783BBF5922BCF80900AF5CD1 /* Text */,
+				783BBF6222BCF80900AF5CD1 /* Media */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		783BBF5422BCF80900AF5CD1 /* Emoji */ = {
+			isa = PBXGroup;
+			children = (
+				783BBF5522BCF80900AF5CD1 /* MSGEmojiCollectionViewCell.swift */,
+				783BBF5622BCF80900AF5CD1 /* MSGIncomingEmojiCollectionViewCell.xib */,
+				783BBF5722BCF80900AF5CD1 /* MSGOutgoingEmojiCollectionViewCell.xib */,
+			);
+			path = Emoji;
+			sourceTree = "<group>";
+		};
+		783BBF5922BCF80900AF5CD1 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				783BBF5A22BCF80900AF5CD1 /* Travamigos */,
+				783BBF5E22BCF80900AF5CD1 /* iMessage */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		783BBF5A22BCF80900AF5CD1 /* Travamigos */ = {
+			isa = PBXGroup;
+			children = (
+				783BBF5B22BCF80900AF5CD1 /* MSGIncomingTravCollectionViewCell.xib */,
+				783BBF5C22BCF80900AF5CD1 /* MSGOutgoingTravCollectionViewCell.xib */,
+				783BBF5D22BCF80900AF5CD1 /* MSGTravCollectionViewCell.swift */,
+			);
+			path = Travamigos;
+			sourceTree = "<group>";
+		};
+		783BBF5E22BCF80900AF5CD1 /* iMessage */ = {
+			isa = PBXGroup;
+			children = (
+				783BBF5F22BCF80900AF5CD1 /* MSGIncomingTailCollectionViewCell.xib */,
+				783BBF6022BCF80900AF5CD1 /* MSGOutgoingTailCollectionViewCell.xib */,
+				783BBF6122BCF80900AF5CD1 /* MSGTailCollectionViewCell.swift */,
+			);
+			path = iMessage;
+			sourceTree = "<group>";
+		};
+		783BBF6222BCF80900AF5CD1 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				783BBF6322BCF80900AF5CD1 /* MSGImageCollectionViewCell.swift */,
+				783BBF6422BCF80900AF5CD1 /* MSGOutgoingImageCollectionViewCell.xib */,
+				783BBF6522BCF80900AF5CD1 /* MSGIncomingImageCollectionViewCell.xib */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		783BBF6622BCF80900AF5CD1 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				783BBF6722BCF80900AF5CD1 /* Travamigos */,
+				783BBF6A22BCF80900AF5CD1 /* iMessage */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		783BBF6722BCF80900AF5CD1 /* Travamigos */ = {
+			isa = PBXGroup;
+			children = (
+				783BBF6822BCF80900AF5CD1 /* MSGTravCollectionView.swift */,
+				783BBF6922BCF80900AF5CD1 /* MSGTravCollectionViewFlowLayout.swift */,
+			);
+			path = Travamigos;
+			sourceTree = "<group>";
+		};
+		783BBF6A22BCF80900AF5CD1 /* iMessage */ = {
+			isa = PBXGroup;
+			children = (
+				783BBF6B22BCF80900AF5CD1 /* MSGImessageTravCollectionViewFlowLayout.swift */,
+				783BBF6C22BCF80900AF5CD1 /* MSGImessageCollectionView.swift */,
+			);
+			path = iMessage;
+			sourceTree = "<group>";
+		};
+		783BBF6E22BCF80900AF5CD1 /* Header Footers */ = {
+			isa = PBXGroup;
+			children = (
+				783BBF6F22BCF80900AF5CD1 /* MSGSectionReusableView.swift */,
+				783BBF7022BCF80900AF5CD1 /* Travamigos */,
+				783BBF7722BCF80900AF5CD1 /* MSGSectionReusableViewDelegate.swift */,
+				783BBF7822BCF80900AF5CD1 /* iMessage */,
+			);
+			path = "Header Footers";
+			sourceTree = "<group>";
+		};
+		783BBF7022BCF80900AF5CD1 /* Travamigos */ = {
+			isa = PBXGroup;
+			children = (
+				783BBF7122BCF80900AF5CD1 /* MSGTravCollectionViewSectionHeader.swift */,
+				783BBF7222BCF80900AF5CD1 /* MSGTravIncomingCollectionViewSectionFooter.xib */,
+				783BBF7322BCF80900AF5CD1 /* MSGTravIncomingCollectionViewSectionHeader.xib */,
+				783BBF7422BCF80900AF5CD1 /* MSGTravOutgoingCollectionViewSectionHeader.xib */,
+				783BBF7522BCF80900AF5CD1 /* MSGTravCollectionViewSectionFooter.swift */,
+				783BBF7622BCF80900AF5CD1 /* MSGTravOutgoingCollectionViewSectionFooter.xib */,
+			);
+			path = Travamigos;
+			sourceTree = "<group>";
+		};
+		783BBF7822BCF80900AF5CD1 /* iMessage */ = {
+			isa = PBXGroup;
+			children = (
+				783BBF7922BCF80900AF5CD1 /* MSGImessageIncomingHeaderView.xib */,
+				783BBF7A22BCF80900AF5CD1 /* MSGImessageOutgoingFooterView.xib */,
+				783BBF7B22BCF80900AF5CD1 /* MSGImessageHeaderView.swift */,
+				783BBF7C22BCF80900AF5CD1 /* MSGImessageFooterView.swift */,
+				783BBF7D22BCF80900AF5CD1 /* MSGImessageIncomingFooterView.xib */,
+				783BBF7E22BCF80900AF5CD1 /* MSGImessageOutgoingHeaderView.xib */,
+			);
+			path = iMessage;
+			sourceTree = "<group>";
+		};
+		783BBF8222BCF80900AF5CD1 /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				783BBF8322BCF80900AF5CD1 /* MSGPlaceholderTextView.swift */,
+				783BBF8422BCF80900AF5CD1 /* Styles */,
+				783BBF8C22BCF80900AF5CD1 /* MSGInputView.swift */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		783BBF8422BCF80900AF5CD1 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				783BBF8522BCF80900AF5CD1 /* Travamigos */,
+				783BBF8822BCF80900AF5CD1 /* iMessage */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		783BBF8522BCF80900AF5CD1 /* Travamigos */ = {
+			isa = PBXGroup;
+			children = (
+				783BBF8622BCF80900AF5CD1 /* MSGTravInputView.swift */,
+				783BBF8722BCF80900AF5CD1 /* MSGInputSeparatorView.swift */,
+			);
+			path = Travamigos;
+			sourceTree = "<group>";
+		};
+		783BBF8822BCF80900AF5CD1 /* iMessage */ = {
+			isa = PBXGroup;
+			children = (
+				783BBF8922BCF80900AF5CD1 /* MSGImessageInputView.xib */,
+				783BBF8A22BCF80900AF5CD1 /* MSGImessageSendButton.swift */,
+				783BBF8B22BCF80900AF5CD1 /* MSGImessageInputView.swift */,
+			);
+			path = iMessage;
+			sourceTree = "<group>";
+		};
+		783BBF8D22BCF80900AF5CD1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				783BBF8E22BCF80900AF5CD1 /* .gitkeep */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		783BBF8F22BCF80900AF5CD1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				783BBF9022BCF80900AF5CD1 /* MSGUser.swift */,
+				783BBF9122BCF80900AF5CD1 /* MSGMessageBody.swift */,
+				783BBF9222BCF80900AF5CD1 /* MSGMessage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		783BBF9322BCF80900AF5CD1 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				783BBF9422BCF80900AF5CD1 /* MSGTravamigosStyle.swift */,
+				783BBF9522BCF80900AF5CD1 /* MSGIMessageStyle.swift */,
+				783BBF9622BCF80900AF5CD1 /* MSGMessengerStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		783BBF9722BCF80900AF5CD1 /* Messenger View */ = {
+			isa = PBXGroup;
+			children = (
+				783BBF9822BCF80900AF5CD1 /* MSGMessengerView.swift */,
+				783BBF9922BCF80900AF5CD1 /* MSGMessengerView.xib */,
+				783BBF9A22BCF80900AF5CD1 /* MSGMessengerViewController.swift */,
+				783BBF9B22BCF80900AF5CD1 /* MSGMessengerViewController + Helpers.swift */,
+				783BBF9C22BCF80900AF5CD1 /* MSGMessengerViewController + DataSource.swift */,
+				783BBF9D22BCF80900AF5CD1 /* MSGMessengerViewController + CellDelegate.swift */,
+			);
+			path = "Messenger View";
+			sourceTree = "<group>";
+		};
+		783BBF9F22BCF80900AF5CD1 /* Bubbles */ = {
+			isa = PBXGroup;
+			children = (
+				783BBFA022BCF80900AF5CD1 /* Travamigos */,
+				783BBFA322BCF80900AF5CD1 /* iMessage */,
+			);
+			path = Bubbles;
+			sourceTree = "<group>";
+		};
+		783BBFA022BCF80900AF5CD1 /* Travamigos */ = {
+			isa = PBXGroup;
+			children = (
+				783BBFA122BCF80900AF5CD1 /* MSGTravOutgoingBubble.swift */,
+				783BBFA222BCF80900AF5CD1 /* MSGTravIncomingBubble.swift */,
+			);
+			path = Travamigos;
+			sourceTree = "<group>";
+		};
+		783BBFA322BCF80900AF5CD1 /* iMessage */ = {
+			isa = PBXGroup;
+			children = (
+				783BBFA422BCF80900AF5CD1 /* MSGTailIncomingBubble.swift */,
+				783BBFA522BCF80900AF5CD1 /* MSGTailOutgoingBubble.swift */,
+			);
+			path = iMessage;
+			sourceTree = "<group>";
+		};
+		783BBFA622BCF80900AF5CD1 /* Keyboard Utility */ = {
+			isa = PBXGroup;
+			children = (
+				783BBFA722BCF80900AF5CD1 /* KeyboardLayoutGuide.swift */,
+				783BBFA822BCF80900AF5CD1 /* KeyboardFrameObserver.swift */,
+				783BBFA922BCF80900AF5CD1 /* KeyboardFrameObserversManager.swift */,
+			);
+			path = "Keyboard Utility";
+			sourceTree = "<group>";
+		};
+		78E1936022BCCD0100CF10B3 /* MessageView */ = {
+			isa = PBXGroup;
+			children = (
+				783BBF4522BCF80900AF5CD1 /* MessengerKit */,
+				78E1936122BCCD1A00CF10B3 /* CustomBubble.swift */,
+				78E1936322BCCD1A00CF10B3 /* CustomCollectionView.swift */,
+				78E1936822BCCD1A00CF10B3 /* CustomIncomingTextCell.xib */,
+				78E1936222BCCD1A00CF10B3 /* CustomOutgoingTextCell.swift */,
+				78E1936422BCCD1A00CF10B3 /* CustomOutgoingTextCell.xib */,
+				78E1936922BCCD1A00CF10B3 /* CustomStyle.swift */,
+				78E1936522BCCD1A00CF10B3 /* CustomStyleViewController.swift */,
+				78E1936622BCCD1A00CF10B3 /* Emoji.swift */,
+				78E1936722BCCD1A00CF10B3 /* User.swift */,
+			);
+			path = MessageView;
 			sourceTree = "<group>";
 		};
 		A488D7439231987C6F2A8C9C /* Frameworks */ = {
@@ -246,9 +687,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				783BBF2322BCDFA400AF5CD1 /* MessengerKit.bundle in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				783BBFCE22BCF80A00AF5CD1 /* MSGTravOutgoingCollectionViewSectionFooter.xib in Resources */,
+				78E1937122BCCD1A00CF10B3 /* CustomIncomingTextCell.xib in Resources */,
+				783BBFB822BCF80A00AF5CD1 /* MSGOutgoingEmojiCollectionViewCell.xib in Resources */,
+				783BBFBE22BCF80A00AF5CD1 /* MSGOutgoingTailCollectionViewCell.xib in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				783BBFD022BCF80A00AF5CD1 /* MSGImessageIncomingHeaderView.xib in Resources */,
+				783BBFBB22BCF80A00AF5CD1 /* MSGOutgoingTravCollectionViewCell.xib in Resources */,
+				783BBFCC22BCF80A00AF5CD1 /* MSGTravOutgoingCollectionViewSectionHeader.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				783BBFCB22BCF80A00AF5CD1 /* MSGTravIncomingCollectionViewSectionHeader.xib in Resources */,
+				783BBFDC22BCF80A00AF5CD1 /* MSGImessageInputView.xib in Resources */,
+				78E1936D22BCCD1A00CF10B3 /* CustomOutgoingTextCell.xib in Resources */,
+				783BBFC122BCF80A00AF5CD1 /* MSGOutgoingImageCollectionViewCell.xib in Resources */,
+				783BBFBA22BCF80A00AF5CD1 /* MSGIncomingTravCollectionViewCell.xib in Resources */,
+				783BBFC222BCF80A00AF5CD1 /* MSGIncomingImageCollectionViewCell.xib in Resources */,
+				783BBFD122BCF80A00AF5CD1 /* MSGImessageOutgoingFooterView.xib in Resources */,
+				783BBFBD22BCF80A00AF5CD1 /* MSGIncomingTailCollectionViewCell.xib in Resources */,
+				783BBFD422BCF80A00AF5CD1 /* MSGImessageIncomingFooterView.xib in Resources */,
+				783BBFE022BCF80A00AF5CD1 /* .gitkeep in Resources */,
+				783BBFE822BCF80A00AF5CD1 /* MSGMessengerView.xib in Resources */,
+				783BBFB722BCF80A00AF5CD1 /* MSGIncomingEmojiCollectionViewCell.xib in Resources */,
+				783BBFD522BCF80A00AF5CD1 /* MSGImessageOutgoingHeaderView.xib in Resources */,
+				783BBFCA22BCF80A00AF5CD1 /* MSGTravIncomingCollectionViewSectionFooter.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,15 +749,17 @@
 		};
 		88E36A6E947686EF8C09FC7D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-skilchatbot_Example/Pods-skilchatbot_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MessengerKit/MessengerKit.framework",
 				"${BUILT_PRODUCTS_DIR}/skilchatbot/skilchatbot.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessengerKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/skilchatbot.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,8 +796,61 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				783BBFF322BCF80A00AF5CD1 /* KeyboardFrameObserver.swift in Sources */,
+				783BBFCF22BCF80A00AF5CD1 /* MSGSectionReusableViewDelegate.swift in Sources */,
+				783BBFD322BCF80A00AF5CD1 /* MSGImessageFooterView.swift in Sources */,
+				783BBFDF22BCF80A00AF5CD1 /* MSGInputView.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				783BBFEB22BCF80A00AF5CD1 /* MSGMessengerViewController + DataSource.swift in Sources */,
+				783BBFBF22BCF80A00AF5CD1 /* MSGTailCollectionViewCell.swift in Sources */,
+				783BBFDE22BCF80A00AF5CD1 /* MSGImessageInputView.swift in Sources */,
+				783BBFE322BCF80A00AF5CD1 /* MSGMessage.swift in Sources */,
+				783BBFB922BCF80A00AF5CD1 /* MSGMessageCellDelegate.swift in Sources */,
+				783BBFF422BCF80A00AF5CD1 /* KeyboardFrameObserversManager.swift in Sources */,
+				783BBFE122BCF80A00AF5CD1 /* MSGUser.swift in Sources */,
+				783BBFB622BCF80A00AF5CD1 /* MSGEmojiCollectionViewCell.swift in Sources */,
+				783BBFD622BCF80A00AF5CD1 /* MSGDataSource.swift in Sources */,
+				783BBFE922BCF80A00AF5CD1 /* MSGMessengerViewController.swift in Sources */,
+				783BBFC822BCF80A00AF5CD1 /* MSGSectionReusableView.swift in Sources */,
+				78E1936E22BCCD1A00CF10B3 /* CustomStyleViewController.swift in Sources */,
+				78E1936C22BCCD1A00CF10B3 /* CustomCollectionView.swift in Sources */,
+				783BBFC522BCF80A00AF5CD1 /* MSGImessageTravCollectionViewFlowLayout.swift in Sources */,
+				783BBFEF22BCF80A00AF5CD1 /* MSGTravIncomingBubble.swift in Sources */,
+				783BBFE722BCF80A00AF5CD1 /* MSGMessengerView.swift in Sources */,
+				78E1937022BCCD1A00CF10B3 /* User.swift in Sources */,
+				783BBFBC22BCF80A00AF5CD1 /* MSGTravCollectionViewCell.swift in Sources */,
+				783BBFC922BCF80A00AF5CD1 /* MSGTravCollectionViewSectionHeader.swift in Sources */,
+				783BBFCD22BCF80A00AF5CD1 /* MSGTravCollectionViewSectionFooter.swift in Sources */,
+				783BBFDB22BCF80A00AF5CD1 /* MSGInputSeparatorView.swift in Sources */,
+				783BBFD922BCF80A00AF5CD1 /* MSGPlaceholderTextView.swift in Sources */,
+				783BBF1D22BCD5AE00AF5CD1 /* TravamigosViewController.swift in Sources */,
+				783BBFC722BCF80A00AF5CD1 /* MSGCollectionView.swift in Sources */,
+				783BBFB522BCF80A00AF5CD1 /* MSGMessageCell.swift in Sources */,
+				78E192C322BCA81500CF10B3 /* MessageViewController.swift in Sources */,
+				783BBFC622BCF80A00AF5CD1 /* MSGImessageCollectionView.swift in Sources */,
+				783BBFD722BCF80A00AF5CD1 /* MSGDelegate.swift in Sources */,
+				783BBFF222BCF80A00AF5CD1 /* KeyboardLayoutGuide.swift in Sources */,
+				783BBFDA22BCF80A00AF5CD1 /* MSGTravInputView.swift in Sources */,
+				783BBFEA22BCF80A00AF5CD1 /* MSGMessengerViewController + Helpers.swift in Sources */,
+				78E1936A22BCCD1A00CF10B3 /* CustomBubble.swift in Sources */,
+				78E1936B22BCCD1A00CF10B3 /* CustomOutgoingTextCell.swift in Sources */,
+				783BBFD222BCF80A00AF5CD1 /* MSGImessageHeaderView.swift in Sources */,
+				783BBFE522BCF80A00AF5CD1 /* MSGIMessageStyle.swift in Sources */,
+				783BBFF022BCF80A00AF5CD1 /* MSGTailIncomingBubble.swift in Sources */,
+				783BBFE422BCF80A00AF5CD1 /* MSGTravamigosStyle.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				783BBFE622BCF80A00AF5CD1 /* MSGMessengerStyle.swift in Sources */,
+				783BBFEE22BCF80A00AF5CD1 /* MSGTravOutgoingBubble.swift in Sources */,
+				783BBFDD22BCF80A00AF5CD1 /* MSGImessageSendButton.swift in Sources */,
+				783BBFC022BCF80A00AF5CD1 /* MSGImageCollectionViewCell.swift in Sources */,
+				783BBFF122BCF80A00AF5CD1 /* MSGTailOutgoingBubble.swift in Sources */,
+				783BBFB422BCF80A00AF5CD1 /* MessengerKit.swift in Sources */,
+				78E1936F22BCCD1A00CF10B3 /* Emoji.swift in Sources */,
+				78E1937222BCCD1A00CF10B3 /* CustomStyle.swift in Sources */,
+				783BBFE222BCF80A00AF5CD1 /* MSGMessageBody.swift in Sources */,
+				783BBFC322BCF80A00AF5CD1 /* MSGTravCollectionView.swift in Sources */,
+				783BBFC422BCF80A00AF5CD1 /* MSGTravCollectionViewFlowLayout.swift in Sources */,
+				783BBFEC22BCF80A00AF5CD1 /* MSGMessengerViewController + CellDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,7 +996,13 @@
 			baseConfigurationReference = 59A9550B4B53585A683418E4 /* Pods-skilchatbot_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/skilchatbot",
+					"$(PROJECT_DIR)/skilchatbot/MessageView/MessengerKit",
+				);
 				INFOPLIST_FILE = skilchatbot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -493,7 +1017,13 @@
 			baseConfigurationReference = 2334ED69FF759719EE611D43 /* Pods-skilchatbot_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/skilchatbot",
+					"$(PROJECT_DIR)/skilchatbot/MessageView/MessengerKit",
+				);
 				INFOPLIST_FILE = skilchatbot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
