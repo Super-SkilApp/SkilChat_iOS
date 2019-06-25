@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'skilchatbot'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'skilchatbot.'
   s.swift_version    = '4.2'
 # This description is used to generate tags and improve search results.
