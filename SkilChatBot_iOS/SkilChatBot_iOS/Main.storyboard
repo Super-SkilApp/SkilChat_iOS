@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7DC-9j-zF3">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="YtX-uR-chC">
+            <objects>
+                <viewController id="7DC-9j-zF3" customClass="ViewController" customModule="SkilChatBot_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4ZB-s8-SjJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="botButton" translatesAutoresizingMaskIntoConstraints="NO" id="X5h-aH-bgu">
+                                <rect key="frame" x="284" y="752" width="110" height="110"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="ChD-Mn-hh4"/>
+                                    <constraint firstAttribute="width" secondItem="X5h-aH-bgu" secondAttribute="height" multiplier="1:1" id="jWS-EW-QiZ"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Xt-IZ-nyq">
+                                <rect key="frame" x="284" y="752" width="110" height="110"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="7Xt-IZ-nyq" secondAttribute="height" multiplier="1:1" id="3TS-XP-U10"/>
+                                    <constraint firstAttribute="width" constant="110" id="sdU-hg-Llq"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="botButton"/>
+                                <connections>
+                                    <action selector="ChatAction:" destination="7DC-9j-zF3" eventType="touchUpInside" id="1c9-3C-WTh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="X5h-aH-bgu" firstAttribute="bottom" secondItem="9c5-Yh-VEt" secondAttribute="bottom" id="8U0-vF-6Nl"/>
+                            <constraint firstItem="9c5-Yh-VEt" firstAttribute="trailing" secondItem="X5h-aH-bgu" secondAttribute="trailing" constant="20" id="Iwb-kH-HmD"/>
+                            <constraint firstItem="7Xt-IZ-nyq" firstAttribute="bottom" secondItem="9c5-Yh-VEt" secondAttribute="bottom" id="NTg-2n-12k"/>
+                            <constraint firstItem="9c5-Yh-VEt" firstAttribute="trailing" secondItem="7Xt-IZ-nyq" secondAttribute="trailing" constant="20" id="lGo-xL-NpW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="9c5-Yh-VEt"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cH8-AX-WjY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="63.768115942028992" y="197.54464285714286"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="botButton" width="224" height="224"/>
+    </resources>
+</document>
